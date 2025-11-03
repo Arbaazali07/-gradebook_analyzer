@@ -123,9 +123,9 @@ def load_csv():
 # rint the results
 
 def print_table(marks, grades):
-    print("\n--- Report Card ---")
+    print("\n Report Card ")
     print("Name\t\tMarks\tGrade")
-    print("----------------------------")
+    print("---")
     for name in marks:
         print(f"{name}\t\t{marks[name]}\t{grades[name]}")
 
@@ -188,3 +188,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
